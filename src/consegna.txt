@@ -17,7 +17,7 @@ viene creato un array con la seguente struttura:
 
 Quindi, create due componenti:
 1. UniversityList, che rappresenta i link alle università, cliccabili e che vi portano sul sito esterno.
-2. SearchBar, che rappresenta l'input con bottone "Cerca", per cercare tra le università.
+che rappresenta l'input con bottone "Cerca", per cercare tra le università.2. SearchBar, 
 Note: la ricerca avviene in locale (dovete filtrare l'array universities usando filter)
 
 BONUS Funzionalita
@@ -26,5 +26,6 @@ BONUS Funzionalita
 
 BONUS Stile
 - In UniversityList, usando il random url di unsplash "https://source.unsplash.com/random/?{searchTerm}",
-aggiungi un immagine per ogni universita, creando delle vere e proprie Card al posto di una lista.
+    aggiungi un immagine per ogni universita, creando delle vere e proprie Card al posto di una lista.
 - In SearchBar, fintanto che il campo di testo è vuoto, il bottone Cerca è disattivato e ha uno stile specifico in CSS.
+
