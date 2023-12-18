@@ -1,10 +1,10 @@
-
-export default ({ universityInfo }) => {
-
-    return (
-        universityInfo.map((obj, i) => {
-            const { name, url } = obj;
-            return <a key={`url${i}`} href={url}> <span>{name}</span> </a>
-
-        }));
-}
+export default ({ objArray }) => {
+    return objArray.map((obj, i) => {
+        const { name, url } = obj;
+        return (
+            <div key={`url${i}`}>
+                <a href={url}>{name}</a>
+            </div>
+        );
+    });
+};
